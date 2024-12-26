@@ -17,12 +17,18 @@ function Home() {
               Hello I&apos;m <br /> <span className="text-accent whitespace-nowrap">Junayed Hassan</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">Amir specializes in creating cutting-edge projects with expertise across a wide range of programming languages ​​and technologies.</p>
-            {/* btn and sacials */}
+            {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8 ">
-              <Button variant="outline" size="lg" className="uppercase flex items-center gap-2" >
+            <a
+                href="/assets/junayed.pdf"
+                download="JunayedHassanCV"
+              >
+                <Button variant="outline" size="lg" className="uppercase flex items-center gap-2" >
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />
               </Button>
+              </a>
+              
               <div className="mb-8 xl:mb-0 ">
                 <Socials containerStyles={"flex gap-6"} iconStyles={"w-9 h-9 border border-accent rounded-full flex justify-center items-center text-accent text-base hover:bg-accent hover:text-prima hover:transition-all duration-500"}/>
               </div>
@@ -39,4 +45,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Home;

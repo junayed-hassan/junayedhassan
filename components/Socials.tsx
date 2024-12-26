@@ -22,4 +22,4 @@ function Socials({ containerStyles, iconStyles }: { containerStyles: string; ico
   
 }
 
-export default Socials
+export default Socials;

@@ -22,7 +22,7 @@ const projects = [
     Category: "frontend",
     title: "Project 1",
     descriptions:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates maiores.",
+      "Lorem, ipsum dolor sit amat consectetur adipisicing edit. Volutes maigres.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "JavaScript" }],
     image: "/assets/work/thumb1.png",
     live: "https://live-project-1.com",
@@ -33,7 +33,7 @@ const projects = [
     Category: "fullstack",
     title: "Project 2",
     descriptions:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates maiores.",
+      "Lorem, ipsum dolor sit amen consectetur adipisicing edit. Volutes maigres.",
     stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
     image: "/assets/work/thumb2.png",
     live: "https://live-project-2.com",
@@ -44,7 +44,7 @@ const projects = [
     Category: "frontend",
     title: "Project 3",
     descriptions:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates maiores.",
+      "Lorem, ipsum dolor sit amex consectetur adipisicing edit. Voltages maitres.",
     stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
     image: "/assets/work/thumb3.png",
     live: "https://live-project-3.com",
